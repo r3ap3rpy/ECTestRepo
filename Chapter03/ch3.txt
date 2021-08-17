@@ -1,0 +1,20 @@
+Let just write something else!
+#Open
+#Manipulate
+#Close
+
+# Text based
+# Binary
+
+r -> read
+w -> write
+x -> exclusive creation
+a -> append
+b -> Binary
+t -> text (utf-8)
++ -> read & write
+
+rb -> read & binary
+wb -> write & binary
+
+# with
