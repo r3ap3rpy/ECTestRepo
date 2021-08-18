@@ -1,0 +1,31 @@
+Types of testing:
+ - Manual
+ - Automated
+
+Testing:
+ - Functional testing
+   * Unit test
+   * Smoke test
+   * Sanity test
+   * Integration test 
+   * Regression test
+   * User Acceptance test
+ - Non Functional testing
+   * Availability and Load
+   * Usability 
+   * Performance 
+   * Security 
+
+Withe box & Black box 
+
+Default module unittest, pytest
+
+The assert is used to test.
+
+assertEqual  -> assertEqual(5,5)
+assertTrue   -> assertTrue([1,2,3])
+assertFalse  -> assertFalse([1,2,3])
+assertIs     -> assertIs(a,b) (__eq__)
+assertIsNone -> assertIsNone(None)
+assertIn(a,b) -> assertIn('string','This is a string')
+assertIsInstance -> assertIsInstance(c,d)
