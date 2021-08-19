@@ -1,0 +1,11 @@
+# Basic datastructures
+    - list
+    - tuple
+    - dictionary
+    - set
+
+# Sequence types (__iter__)
+    - lists
+    - tuples
+    - ranges (range(10) etc...)
+    

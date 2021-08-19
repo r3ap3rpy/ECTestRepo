@@ -1,0 +1,17 @@
+Types: 
+ - Windows
+ - Linux
+ - MacOS
+
+For Windows:
+    py2exe -> (https://pypi.org/project/py2exe/)
+
+For MacOS
+    py2app -> (https://py2app.readthedocs.io/en/latest/)
+
+Borrowed time:
+    cxFreeze -> (https://github.com/marcelotduarte/cx_Freeze)
+    pyInstaller -> (https://pyinstaller.readthedocs.io/en/stable/)
+    cYthon -> (https://cython.org/)
+    Nutika -> (https://nuitka.net/pages/overview.html)
+    
