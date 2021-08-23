@@ -1,0 +1,50 @@
+15:23:49: Main thead is creating thread with index: 1
+15:23:49: Thread 1 is starting!
+15:23:49: Main thead is creating thread with index: 2
+15:23:49: Thread 2 is starting!
+15:23:49: Main thead is creating thread with index: 3
+15:23:49: Thread 3 is starting!
+15:23:49: Main thead is creating thread with index: 4
+15:23:49: Thread 4 is starting!
+15:23:49: Main thead is creating thread with index: 5
+15:23:49: Thread 5 is starting!
+15:23:49: Main thead is creating thread with index: 6
+15:23:49: Thread 6 is starting!
+15:23:49: Main thead is creating thread with index: 7
+15:23:49: Thread 7 is starting!
+15:23:49: Main thead is creating thread with index: 8
+15:23:49: Thread 8 is starting!
+15:23:49: Main thead is creating thread with index: 9
+15:23:49: Thread 9 is starting!
+15:23:49: Main thead is creating thread with index: 10
+15:23:49: Thread 10 is starting!
+15:23:49: Main thead before joinging thread: 10
+15:23:52: Thread 9 is finishing!
+15:23:52: Thread 5 is finishing!
+15:23:52: Thread 8 is finishing!
+15:23:52: Thread 6 is finishing!
+15:23:52: Thread 7 is finishing!
+15:23:52: Thread 10 is finishing!
+15:23:52: Thread 3 is finishing!
+15:23:52: Thread 4 is finishing!
+15:23:52: Thread 2 is finishing!
+15:23:52: Thread 1 is finishing!
+15:23:52: Main thread has joined thread: 10
+15:23:52: Main thead before joinging thread: 10
+15:23:52: Main thread has joined thread: 10
+15:23:52: Main thead before joinging thread: 10
+15:23:52: Main thread has joined thread: 10
+15:23:52: Main thead before joinging thread: 10
+15:23:52: Main thread has joined thread: 10
+15:23:52: Main thead before joinging thread: 10
+15:23:52: Main thread has joined thread: 10
+15:23:52: Main thead before joinging thread: 10
+15:23:52: Main thread has joined thread: 10
+15:23:52: Main thead before joinging thread: 10
+15:23:52: Main thread has joined thread: 10
+15:23:52: Main thead before joinging thread: 10
+15:23:52: Main thread has joined thread: 10
+15:23:52: Main thead before joinging thread: 10
+15:23:52: Main thread has joined thread: 10
+15:23:52: Main thead before joinging thread: 10
+15:23:52: Main thread has joined thread: 10

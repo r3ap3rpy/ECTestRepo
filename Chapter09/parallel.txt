@@ -1,0 +1,9 @@
+# Divide tasks into manageable chunks
+  - Execute them with functions or classes
+
+The three main types:
+ - threading (Network bound)
+ - multiprocessing (IO bound)
+ - asynchronous processing (Web Application, API-s)
+
+At the heart we have the threading module.
