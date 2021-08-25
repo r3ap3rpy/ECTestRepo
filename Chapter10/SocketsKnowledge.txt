@@ -1,0 +1,10 @@
+# TCP 
+# UDP 
+
+Socket types:
+    - stream (SYN -> SYN-ACK -> ACK) -> TCP
+    - datagram -> UDP1
+    - raw -> ICMP (ping), OSPF, 
+
+OSI:
+ -> Please Do No Throw Sausage Pizza Away
