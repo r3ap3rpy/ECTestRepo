@@ -1,0 +1,24 @@
+#library.go
+package main
+
+import (
+   "C"
+   "log"
+)
+
+//export helloWorld
+func helloWorld(){
+   log.Println("Hello World")
+}
+
+func main(){
+
+}
+
+go build -buildmode=c-shared -o library.so library.go
+
+#test.py
+import ctypes
+library = ctypes.cdll.LoadLibrary('./library.so')
+hello_world = library.helloWorld
+hello_world()

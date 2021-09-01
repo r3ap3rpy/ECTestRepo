@@ -25,3 +25,11 @@ eth_header = pckt[0:14]
 eth_payload = pckt[14:]
 
 dest, src, proto = unpack("!6s6sH", eth_header)
+
+sniff(
+iface=["ens33"],
+store=False,
+prn="display_packets",
+count=100,
+filter="tcp",
+)

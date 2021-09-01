@@ -1,0 +1,47 @@
+In order to build the module we need the dependencies installed.
+
+yum install gcc python3-devel swig
+
+#example.c
+#include <time.h>
+double My_variable = 3.0;
+
+int fact(int n){
+	if (n<=1) return 1;
+	else return n * fact(n-1);
+}
+
+int my_mod(int x, int y){
+	return (x%y);
+}
+
+char *get_time(){
+	time_t ltime;
+	time(&ltime);
+	return ctime(&ltime);
+}
+
+#example.i
+%module example
+%{
+extern double My_variable;
+extern int fact(int n);
+extern int my_mod(int x, int y);
+extern char *get_time();
+%}
+
+extern double My_variable;
+extern int fact(int n);
+extern int my_mod(int x, int y);
+extern char *get_time();
+
+swig -python example.i
+gcc -fPIC -c example.c example_wrap.c -I /usr/include/python3.8 -lpython3.8
+ld -shared example.o example_wrap.o -o _example.so
+
+# In python shell
+>>> import example
+>>> example.fact(5)
+120
+>>> example.my_mod(6,3)
+0
